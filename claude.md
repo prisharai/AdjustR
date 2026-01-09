@@ -1,0 +1,1 @@
+- when you complete a task from the project plan, update the projectplan.md file so that we can track progress. tick off any items that have been completed. 
