@@ -78,3 +78,8 @@ postgres_data/
 # Docker
 # =====================
 docker-compose.override.yml
+
+# =====================
+# Documentation
+# =====================
+DAY1-COMPLETE.md
