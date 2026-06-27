@@ -1,1 +1,0 @@
-# AdjustR Backend Application

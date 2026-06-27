@@ -1,96 +1,52 @@
-# =====================
 # Python
-# =====================
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
+*.pyo
+*.pyd
 .Python
-venv/
-env/
-ENV/
-.venv/
+*.egg-info/
 dist/
 build/
+.eggs/
+*.egg
 
-# =====================
-# Node / JS
-# =====================
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-
-# =====================
-# Next.js
-# =====================
-.next/
-out/
-
-# =====================
-# Environment files
-# =====================
+# Environments
+venv/
+.venv/
+env/
 .env
-.env.local
-.env*.local
+*.env
 
-# =====================
+# ML model cache
+.cache/
+huggingface/
+*.pt
+*.onnx
+*.bin
+*.safetensors
+
+# Uploads / generated files
+uploads/
+*.pdf
+*.mp4
+*.mov
+
+# DB
+*.db
+*.sqlite
+
 # IDE
-# =====================
 .vscode/
 .idea/
 *.swp
-*.swo
 
-# =====================
 # OS
-# =====================
 .DS_Store
 Thumbs.db
 
-# =====================
-# Uploads / temp
-# =====================
-uploads/
-temp/
+# Claude / AI assistant notes
+.ai-docs/
 
-# =====================
-# ML / AI
-# =====================
-*.pt
-*.pth
-.cache/
-.huggingface/
-.torch/
-
-# =====================
 # Logs
-# =====================
 *.log
-
-# =====================
-# Database
-# =====================
-postgres_data/
-*.sqlite
-*.sqlite3
-
-# =====================
-# Docker
-# =====================
-docker-compose.override.yml
-
-# =====================
-# Documentation
-# =====================
-DAY1-COMPLETE.md
-DAY2-COMPLETE.md
-DAY3-COMPLETE.md
-DAY4-COMPLETE.md
-DAY5-COMPLETE.md
-DAY6-COMPLETE.md
-DAY7-COMPLETE.md
-DAY8-COMPLETE.md
-DAY9-COMPLETE.md
-PROGRESS.md
-projectplan.md
-day progress overviews/
+logs/
